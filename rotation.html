@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Rotating Image Slider</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="slider-container">
+    <div class="Box">
+      <span style="--i:0;">
+        <img src="Rainy.jpg" alt="">
+        <div class="text">Rain nourishes life</div>
+      </span>
+      <span style="--i:1;">
+        <img src="food.jpg" alt="">
+        <div class="text">Sweet, crisp, savory</div>
+      </span>
+      <span style="--i:2;">
+        <img src="paperboats.jpg" alt="">
+        <div class="text">Childhood, joy, nostalgia</div>
+      </span>
+      <span style="--i:3;">
+        <img src="tea.jpg" alt="">
+        <div class="text">Savor each sip</div>
+      </span>
+      <span style="--i:4;">
+        <img src="flower.jpg" alt="">
+        <div class="text">Blossom, beauty, fragrance</div>
+      </span>
+    </div>
+    <button class="nav-button prev" onclick="prevSlide()">&#10094;</button>
+    <button class="nav-button next" onclick="nextSlide()">&#10095;</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
